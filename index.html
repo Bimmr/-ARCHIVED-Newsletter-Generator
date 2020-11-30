@@ -40,6 +40,14 @@
 
   </head>
   <body>
+    <div class="warning-overlay-wrapper">
+      <div class="warning-overlay-wrapper-inner">
+        <h1>The Newsletter Generator has moved</h1>
+        <p>Please visit the new location to continue using the Newsletter Generator. You can still use this version if you need to export your Newsletter templates so they can be imported into the new location.</p>
+        <br><br><span class="form-item"><a class="button" href="https://Newsletter.Siteforward.ca">Visit the new location</a></span>
+        <span class="form-item"><button onclick="document.querySelector('.warning-overlay-wrapper').style.display='none';">Use this version anyways</button></span>
+      </div>
+    </div>
     <div id="body-wrapper">
       <aside id="sidebar" @mouseover="sidebarHover = true" @mouseleave="sidebarHover = false" :class="{open: sidebarHover || sidebarStuck, stuck: sidebarStuck}">
         <span class="sidebar-title">

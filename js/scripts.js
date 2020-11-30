@@ -519,7 +519,7 @@ let app = new Vue({
         }
   },
   methods: {
-
+    
     //Update settings to ensure no error on load
     updateData(){
       //Update useDisclaimer
